@@ -52,7 +52,7 @@ body {
     opacity: 0.9;
 }
 
-/* ОСТАЛЬНЫЕ СТИЛИ */
+
 .content-section {
     max-width: 1600px;
     margin: 0 auto;
@@ -69,7 +69,6 @@ h2 {
     margin-bottom: 50px;
 }
 
-/* Сетка народов */
 .peoples-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -89,7 +88,7 @@ h2 {
 
 .card img {
     width: 100%;
-    height: 320px;
+    height: auto;
     object-fit: cover;
 }
 
@@ -106,7 +105,6 @@ h2 {
     line-height: 1.6;
 }
 
-/* Блок с текстом и картинкой */
 .block {
     display: flex;
     gap: 80px;
@@ -139,7 +137,6 @@ h2 {
     border-radius: 20px;
 }
 
-/* Авторы */
 .authors {
     margin-top: 70px;
 }
@@ -157,12 +154,12 @@ h2 {
 }
 
 .author {
-    text-align: center;
+    text-align: left;
 }
 
 .author img {
     width: 100%;
-    height: 240px;
+    height: auto;
     object-fit: cover;
     border-radius: 16px;
 }
@@ -174,7 +171,6 @@ h2 {
     color: #2a4a3e;
 }
 
-/* Театры */
 .theaters-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -224,7 +220,6 @@ h2 {
     color: #1a5b4a;
 }
 
-/* ЗАКЛЮЧЕНИЕ: ТЕКСТ СЛЕВА, КАРТА СПРАВА */
 .conclusion-section {
     background: linear-gradient(135deg, #1a6b5e, #0d4f3a);
     padding: 80px 60px;
@@ -294,7 +289,6 @@ h2 {
     display: block;
 }
 
-/* Адаптация */
 @media (max-width: 1024px) {
     .peoples-grid { grid-template-columns: repeat(2, 1fr); }
     .authors-grid { grid-template-columns: repeat(3, 1fr); }
